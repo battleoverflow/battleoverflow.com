@@ -28,8 +28,7 @@ const projects = [
   },
   {
     name: "azazelm3dj3d",
-    description:
-      "Personal GitHub.",
+    description: "Personal GitHub.",
     img: "https://avatars.githubusercontent.com/u/56496067",
     alt: "azazelm3dj3d",
     url: "https://github.com/azazelm3dj3d",

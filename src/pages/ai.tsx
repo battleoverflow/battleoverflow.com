@@ -48,7 +48,7 @@ const projects = [
 ];
 
 const Projects: NextPage = () => {
-  const END: number = 7;
+  const END = 7;
 
   return (
     <>
@@ -67,11 +67,11 @@ const Projects: NextPage = () => {
             </div>
             <p className="text-md text-white">
               I am a huge fan of artificial intelligence and one of my favorite
-              things to create is AI art, so I've created a special page to
-              display some of my favorite generated masterpieces. While these
-              are free to use (for non-commercial projects), I do ask that you
-              give attribution to me in some form for those who may be
-              interested in anything I do.
+              things to create is AI art, so I created a special page to display
+              some of my favorite generated masterpieces. While these are free
+              to use (for non-commercial projects), I do ask that you give
+              attribution to me in some form for those who may be interested in
+              anything I do.
             </p>
             <div className="h-1/2 space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:grid-cols-4 lg:gap-8">
               {projects.map((pro) => (
