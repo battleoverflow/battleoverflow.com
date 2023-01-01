@@ -10,8 +10,8 @@ import Link from "next/link";
 
 const people = [
   {
-    name: "Trevor",
-    role: "Open Source Development",
+    name: "",
+    role: "",
     imageUrl: "https://avatars.githubusercontent.com/u/56496067",
     twitterUrl: "https://twitter.com/azazelm3dj3d",
     githubUrl: "https://github.com/azazelm3dj3d",
@@ -223,7 +223,7 @@ const Home: NextPage = () => {
           <div className="space-y-12">
             <div className="mx-auto mx-10 text-white">
               <h1 className="text-center text-4xl font-bold">
-                GitHub Organizations
+                Open Source Development
               </h1>
             </div>
             <div className="h-1/2 space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">

@@ -9,7 +9,8 @@ const About: NextPage = () => {
   const RUST_CRATES = 2;
   const PYPI_MODULES = 5;
   const VSCODE_EXT = 1;
-  const TOTAL_PROJECTS = 39;
+  const TOTAL_PROJECTS = 40;
+  const RELEASED_GAMES = 0;
 
   return (
     <>
@@ -20,7 +21,7 @@ const About: NextPage = () => {
       </Head>
       <Navbar />
 
-      <div className="h-screen bg-gray-900">
+      <div className="bg-gray-900">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <ul
@@ -33,94 +34,206 @@ const About: NextPage = () => {
                     <h1 className="text-center text-2xl font-bold">About Me</h1>
                     <br />
                     <p className="text-xl">
-                      I am a Software Engineer currently employed in the
-                      cybersecurity industry, developing numerous tools for
-                      threat intelligence, File Detection & Response (FDR),
-                      malware analysis, sandbox testing, and much more. My
-                      personal focus is developing open-source projects, mostly
-                      CLI tools, libraries (+ crates) and desktop applications.
-                      All of my projects are organized on GitHub. You can check
-                      out my custom security defense framework under{" "}
+                      I am a Software Developer currently employed in the
+                      cybersecurity industry, focused on developing tools for
+                      threat intelligence, FDR, malware analysis, and sandbox
+                      testing. I am currently working on numerous projects
+                      across multiple industries, most which are open-source.
+                      You can find me working on games, cli tools, desktop
+                      applications, web applications, and more. I've always
+                      enjoyed learning about different areas of technology, and
+                      building cool stuff, so I tend to explore as much as
+                      possible. My goal is to eventually work on these projects
+                      full-time, and to progress towards this goal, I created a{" "}
                       <a
-                        href="https://github.com/CatherineFramework"
+                        href="https://www.patreon.com/azazelm3dj3d"
+                        className="border-b-2 transition hover:border-black"
                         target="_blank"
                         rel="noreferrer"
-                        className="border-b border-white transition hover:border-black"
                       >
-                        Catherine Framework
-                      </a>
-                      , utilities created for improved development under{" "}
-                      <a
-                        href="https://github.com/shinigamilib"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="border-b border-white transition hover:border-black"
-                      >
-                        Shinigami
-                      </a>
-                      , and everything else is under{" "}
-                      <a
-                        href="https://github.com/azazelm3dj3d"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="border-b border-white transition hover:border-black"
-                      >
-                        azazelm3dj3d
-                      </a>
-                      .
-                    </p>
-                    <br />
-                    <p className="text-xl">
-                      Most of my time is invested in cross-platform application
-                      development using Python and Rust. I also dabble in
-                      TypeScript and C/C++, if the project calls for it. I
-                      currently maintain over{" "}
-                      <a
-                        href="https://github.com/search?q=user%3Aazazelm3dj3d+user%3Ashinigamilib+user%3ACatherineFramework+archived%3Afalse&type=Repositories"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="border-b border-white transition hover:border-black"
-                      >
-                        {TOTAL_PROJECTS}+ open source project(s)
-                      </a>
-                      ,{" "}
-                      <a
-                        href="https://crates.io/users/azazelm3dj3d"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="border-b border-white transition hover:border-black"
-                      >
-                        {RUST_CRATES}+ Rust crate(s)
-                      </a>
-                      ,{" "}
-                      <a
-                        href="https://pypi.org/user/azazelm3dj3d"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="border-b border-white transition hover:border-black"
-                      >
-                        {PYPI_MODULES}+ PyPi module(s)
-                      </a>
-                      ,{" "}
-                      <a
-                        href="https://www.npmjs.com/~azazelm3dj3d"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="border-b border-white transition hover:border-black"
-                      >
-                        {NPM_PACKAGES}+ npm package(s)
-                      </a>
-                      , and{" "}
-                      <a
-                        href="https://marketplace.visualstudio.com/publishers/azazelm3dj3d"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="border-b border-white transition hover:border-black"
-                      >
-                        {VSCODE_EXT}+ VS Code extension(s)
+                        Patreon
                       </a>{" "}
-                      during my free time.
+                      account and I've been approved for a{" "}
+                      <a
+                        href="https://github.com/sponsors/azazelm3dj3d"
+                        className="border-b-2 transition hover:border-black"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        GitHub sponsor
+                      </a>{" "}
+                      account.
                     </p>
+                    <p className="mt-5 text-xl">
+                      If you need to reach me, or would like to chat about
+                      something I'm working on, the best way to contact me is by
+                      Discord: <b>azazel#1337</b>
+                    </p>
+                    <h3 className="mt-5 text-xl underline">Project stats</h3>
+                    <ul className="mt-2">
+                      <li className="mb-2 mt-2">
+                        🌸 PyPI packages: {PYPI_MODULES}+
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸 npm libraries: {NPM_PACKAGES}+
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸 VSCode extensions: {VSCODE_EXT}+
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸 Rust crates: {RUST_CRATES}+
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://github.com/search?q=user%3Aazazelm3dj3d+user%3Ashinigamilib+user%3ACatherineFramework+archived%3Afalse&type=Repositories"
+                          className="border-b-2 transition hover:border-black"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Open source projects
+                        </a>
+                        : {TOTAL_PROJECTS}+
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸 Released games: {RELEASED_GAMES}
+                      </li>
+                    </ul>
+                    <h3 className="mt-5 text-xl underline">Links</h3>
+                    <ul className="mt-2">
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://github.com/azazelm3dj3d"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          GitHub
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://twitter.com/azazelm3dj3d"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Twitter
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://www.patreon.com/azazelm3dj3d"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Patreon
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://www.reddit.com/r/azazelm3dj3d/"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Reddit
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://pypi.org/user/azazelm3dj3d/"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          PyPI
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://www.twitch.tv/azazelm3dj3d"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Twitch
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://www.npmjs.com/~azazelm3dj3d"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          npm
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://azazelm3dj3d.itch.io/"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          itch.io
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://gamejolt.com/@azazelm3dj3d"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          GameJolt
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://marketplace.visualstudio.com/publishers/azazelm3dj3d"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          VS Code Publisher
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://crates.io/users/azazelm3dj3d"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Crates
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://azazelm3dj3d.newgrounds.com/"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Newgrounds
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </li>

@@ -52,12 +52,6 @@ export default function Navbar() {
                   >
                     Projects
                   </Link>
-                  <Link
-                    href="/ai"
-                    className="text-md inline-flex items-center border-transparent px-1 pt-1 font-medium text-white transition hover:text-red-500"
-                  >
-                    AI Art
-                  </Link>
                   {/* <Link
                     href="/supporters"
                     className="text-md inline-flex items-center border-transparent px-1 pt-1 font-medium text-white transition hover:text-red-500"
@@ -99,13 +93,6 @@ export default function Navbar() {
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white transition hover:bg-white hover:text-black"
               >
                 Projects
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/ai"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white transition hover:bg-white hover:text-black"
-              >
-                AI Art
               </Disclosure.Button>
               {/* <Disclosure.Button
                 as="a"
