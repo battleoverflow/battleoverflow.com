@@ -40,7 +40,7 @@ const About: NextPage = () => {
                       testing. I am currently working on numerous projects
                       across multiple industries, most which are open-source.
                       You can find me working on games, cli tools, desktop
-                      applications, web applications, and more. I've always
+                      applications, web applications, and more. I have always
                       enjoyed learning about different areas of technology, and
                       building cool stuff, so I tend to explore as much as
                       possible. My goal is to eventually work on these projects
@@ -53,7 +53,7 @@ const About: NextPage = () => {
                       >
                         Patreon
                       </a>{" "}
-                      account and I've been approved for a{" "}
+                      and I was approved as a{" "}
                       <a
                         href="https://github.com/sponsors/azazelm3dj3d"
                         className="border-b-2 transition hover:border-black"
@@ -66,7 +66,7 @@ const About: NextPage = () => {
                     </p>
                     <p className="mt-5 text-xl">
                       If you need to reach me, or would like to chat about
-                      something I'm working on, the best way to contact me is by
+                      something I am working on, the best way to contact me is by
                       Discord: <b>azazel#1337</b>
                     </p>
                     <h3 className="mt-5 text-xl underline">Project stats</h3>
