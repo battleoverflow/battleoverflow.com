@@ -34,42 +34,17 @@ const About: NextPage = () => {
                     <h1 className="text-center text-2xl font-bold">About Me</h1>
                     <br />
                     <p className="text-xl">
-                      I am a Software Developer currently employed in the
-                      cybersecurity industry, focused on developing tools for
-                      threat intelligence, FDR, malware analysis, and sandbox
-                      testing. I am currently working on numerous projects
-                      across multiple industries, most which are open-source.
-                      You can find me working on games, cli tools, desktop
-                      applications, web applications, and more. I have always
-                      enjoyed learning about different areas of technology, and
-                      building cool stuff, so I tend to explore as much as
-                      possible. My goal is to eventually work on these projects
-                      full-time, and to progress towards this goal, I created a{" "}
-                      <a
-                        href="https://www.patreon.com/azazelm3dj3d"
-                        className="border-b-2 transition hover:border-black"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Patreon
-                      </a>{" "}
-                      and I was approved as a{" "}
-                      <a
-                        href="https://github.com/sponsors/azazelm3dj3d"
-                        className="border-b-2 transition hover:border-black"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        GitHub sponsor
-                      </a>{" "}
-                      account.
+                      Hi! I'm <a href="https://github.com/azazelm3dj3d" className="border-b-2 transition hover:border-black" target="_blank" rel="noreferrer">azazelm3dj3d</a> and I am a Software Developer currently building open-source projects for cybersecurity, gaming, web development, and other industries. Feel free to look around and explore, I currently have a blog, a lot of different social links, and some other stuff!
+                    </p>
+                    <p className="mt-5 text-xl">
+                      Some of my most recent projects are the <a href="https://github.com/CatherineFramework" className="border-b-2 transition hover:border-black" target="_blank" rel="noreferrer">Catherine Framework</a> and <a href="https://github.com/shinigamilib" className="border-b-2 transition hover:border-black" target="_blank" rel="noreferrer">Shinigami utilities</a>.
                     </p>
                     <p className="mt-5 text-xl">
                       If you need to reach me, or would like to chat about
                       something I am working on, the best way to contact me is by
                       Discord: <b>azazel#1337</b>
                     </p>
-                    <h3 className="mt-5 text-xl underline">Project stats</h3>
+                    <h3 className="mt-5 text-xl underline">Statistics</h3>
                     <ul className="mt-2">
                       <li className="mb-2 mt-2">
                         🌸 PyPI packages: {PYPI_MODULES}+
