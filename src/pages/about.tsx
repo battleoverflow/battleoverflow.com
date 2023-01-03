@@ -34,7 +34,7 @@ const About: NextPage = () => {
                     <h1 className="text-center text-2xl font-bold">About Me</h1>
                     <br />
                     <p className="text-xl">
-                      Hi! I'm <a href="https://github.com/azazelm3dj3d" className="border-b-2 transition hover:border-black" target="_blank" rel="noreferrer">azazelm3dj3d</a> and I am a Software Developer currently building open-source projects for cybersecurity, gaming, web development, and other industries. Feel free to look around and explore, I currently have a blog, a lot of different social links, and some other stuff!
+                      Hi! I am <a href="https://github.com/azazelm3dj3d" className="border-b-2 transition hover:border-black" target="_blank" rel="noreferrer">azazelm3dj3d</a> and I am a Software Developer currently building open-source projects for cybersecurity, gaming, web development, and other industries. Feel free to look around and explore, I currently have a blog, a lot of different social links, and some other stuff!
                     </p>
                     <p className="mt-5 text-xl">
                       Some of my most recent projects are the <a href="https://github.com/CatherineFramework" className="border-b-2 transition hover:border-black" target="_blank" rel="noreferrer">Catherine Framework</a> and <a href="https://github.com/shinigamilib" className="border-b-2 transition hover:border-black" target="_blank" rel="noreferrer">Shinigami utilities</a>.
