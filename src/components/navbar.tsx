@@ -59,6 +59,12 @@ export default function Navbar() {
                     Supporters
                   </Link> */}
                   <a
+                    href="https://docs.azazelm3dj3d.com"
+                    className="text-md inline-flex items-center border-transparent px-1 pt-1 font-medium text-white transition hover:text-red-500"
+                  >
+                    Docs
+                  </a>
+                  <a
                     href="https://blog.azazelm3dj3d.com"
                     className="text-md inline-flex items-center border-transparent px-1 pt-1 font-medium text-white transition hover:text-red-500"
                     target="_blank"
@@ -101,6 +107,13 @@ export default function Navbar() {
               >
                 Supporters
               </Disclosure.Button> */}
+              <Disclosure.Button
+                as="a"
+                href="https://docs.azazelm3dj3d.com"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white transition hover:bg-white hover:text-black"
+              >
+                Docs
+              </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="https://blog.azazelm3dj3d.com"
