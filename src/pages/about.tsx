@@ -4,6 +4,41 @@ import Head from "next/head";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
+const links = [
+  {
+    name: "GitHub",
+    anchor: "https://github.com/azazelm3dj3d",
+  },
+  {
+    name: "Twitter",
+    anchor: "https://twitter.com/azazelm3dj3d",
+  },
+  {
+    name: "Patreon",
+    anchor: "https://www.patreon.com/azazelm3dj3d",
+  },
+  {
+    name: "PyPI",
+    anchor: "https://pypi.org/user/azazelm3dj3d/",
+  },
+  {
+    name: "npm",
+    anchor: "https://www.npmjs.com/~azazelm3dj3d",
+  },
+  {
+    name: "VS Code Publisher",
+    anchor: "https://marketplace.visualstudio.com/publishers/azazelm3dj3d",
+  },
+  {
+    name: "Rust Crates",
+    anchor: "https://crates.io/users/azazelm3dj3d",
+  },
+  {
+    name: "Mastodon (infosec.exchange)",
+    anchor: "https://infosec.exchange/@azazelm3dj3d",
+  },
+];
+
 const About: NextPage = () => {
   const NPM_PACKAGES = 2;
   const RUST_CRATES = 3;
@@ -17,7 +52,10 @@ const About: NextPage = () => {
       <Head>
         <title>About</title>
         <meta name="description" content="azazelm3dj3d personal website" />
-        <link rel="icon" href="/favicon.gif" />
+        <link
+          rel="icon"
+          href="https://avatars.githubusercontent.com/u/56496067"
+        />
       </Head>
       <Navbar />
 
@@ -34,7 +72,7 @@ const About: NextPage = () => {
                     <h1 className="text-center text-2xl font-bold">About Me</h1>
                     <br />
                     <p className="text-xl">
-                      Hi! I am{" "}
+                      Hi! {"I'm"}{" "}
                       <a
                         href="https://github.com/azazelm3dj3d"
                         className="border-b-2 transition hover:border-black"
@@ -43,11 +81,11 @@ const About: NextPage = () => {
                       >
                         azazelm3dj3d
                       </a>{" "}
-                      and I am a Software Developer currently building
+                      and {"I'm"} a Software Developer currently building
                       open-source projects for cybersecurity, game development,
                       web development, and other industries. Feel free to look
                       around and explore, I currently have a blog, a lot of
-                      different social links, and some other stuff!
+                      different social links, and some other stuff planned.
                     </p>
                     <p className="mt-5 text-xl">
                       Some of my most recent projects are the{" "}
@@ -76,21 +114,18 @@ const About: NextPage = () => {
                       by Discord: <b>azazel#1337</b>
                     </p>
                     <h3 className="mt-5 text-xl underline">Statistics</h3>
-                    <ul className="mt-2">
+                    <ul className="mt-2 list-disc">
                       <li className="mb-2 mt-2">
-                        🌸 PyPI packages: {PYPI_MODULES}+
+                        PyPI packages: {PYPI_MODULES}+
                       </li>
                       <li className="mb-2 mt-2">
-                        🌸 npm libraries: {NPM_PACKAGES}+
+                        npm libraries: {NPM_PACKAGES}+
                       </li>
                       <li className="mb-2 mt-2">
-                        🌸 VSCode extensions: {VSCODE_EXT}+
+                        VS Code extensions: {VSCODE_EXT}+
                       </li>
+                      <li className="mb-2 mt-2">Rust crates: {RUST_CRATES}+</li>
                       <li className="mb-2 mt-2">
-                        🌸 Rust crates: {RUST_CRATES}+
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
                         <a
                           href="https://github.com/search?q=user%3Aazazelm3dj3d+user%3Ashinigamilib+user%3ACatherineFramework+archived%3Afalse&type=Repositories"
                           className="border-b-2 transition hover:border-black"
@@ -101,177 +136,24 @@ const About: NextPage = () => {
                         </a>
                         : {TOTAL_PROJECTS}+
                       </li>
-                      <li className="mb-2 mt-2">
-                        🌸 Released games: {RELEASED_GAMES}
-                      </li>
+                      {/* <li className="mb-2 mt-2">
+                        Released games: {RELEASED_GAMES}
+                      </li> */}
                     </ul>
                     <h3 className="mt-5 text-xl underline">Links</h3>
-                    <ul className="mt-2">
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://github.com/azazelm3dj3d"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          GitHub
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://twitter.com/azazelm3dj3d"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Twitter
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://www.patreon.com/azazelm3dj3d"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Patreon
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://www.reddit.com/r/azazelm3dj3d/"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Reddit
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://pypi.org/user/azazelm3dj3d/"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          PyPI
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://www.twitch.tv/azazelm3dj3d"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Twitch
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://www.npmjs.com/~azazelm3dj3d"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          npm
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://azazelm3dj3d.itch.io/"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          itch.io
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://gamejolt.com/@azazelm3dj3d"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          GameJolt
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://marketplace.visualstudio.com/publishers/azazelm3dj3d"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          VS Code Publisher
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://crates.io/users/azazelm3dj3d"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Crates
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://azazelm3dj3d.newgrounds.com/"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Newgrounds
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://infosec.exchange/@azazelm3dj3d"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Mastodon (infosec.exchange)
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://azazelm3dj3d.tumblr.com/"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Tumblr
-                        </a>
-                      </li>
-                      <li className="mb-2 mt-2">
-                        🌸{" "}
-                        <a
-                          href="https://www.linkedin.com/in/azazelm3dj3d/"
-                          className="transition hover:border-b-2"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          LinkedIn
-                        </a>
-                      </li>
+                    <ul className="mt-2 list-disc">
+                      {links.map((link) => (
+                        <li className="mb-2 mt-2">
+                          <a
+                            href={link.anchor}
+                            className="transition hover:border-b-2"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            {link.name}
+                          </a>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>

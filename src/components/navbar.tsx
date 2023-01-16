@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-black shadow">
+    <Disclosure as="nav" className="sticky top-0 bg-black shadow shadow-lg">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -22,16 +22,18 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="block h-20 w-auto lg:hidden"
-                    src="/favicon.gif"
-                    alt="azazelm3dj3d"
-                  />
-                  <img
-                    className="hidden h-24 w-auto lg:block"
-                    src="/favicon.gif"
-                    alt="azazelm3dj3d"
-                  />
+                  <a href="/">
+                    <img
+                      className="block h-12 w-auto rounded-full lg:hidden"
+                      src="https://avatars.githubusercontent.com/u/56496067"
+                      alt="azazelm3dj3d avatar"
+                    />
+                    <img
+                      className="hidden h-16 w-auto rounded-full lg:block"
+                      src="https://avatars.githubusercontent.com/u/56496067"
+                      alt="azazelm3dj3d avatar"
+                    />
+                  </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <Link
