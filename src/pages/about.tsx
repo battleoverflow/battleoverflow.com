@@ -6,10 +6,10 @@ import Footer from "../components/footer";
 
 const About: NextPage = () => {
   const NPM_PACKAGES = 2;
-  const RUST_CRATES = 2;
-  const PYPI_MODULES = 5;
+  const RUST_CRATES = 3;
+  const PYPI_MODULES = 7;
   const VSCODE_EXT = 1;
-  const TOTAL_PROJECTS = 40;
+  const TOTAL_PROJECTS = 44;
   const RELEASED_GAMES = 0;
 
   return (
@@ -44,8 +44,8 @@ const About: NextPage = () => {
                         azazelm3dj3d
                       </a>{" "}
                       and I am a Software Developer currently building
-                      open-source projects for cybersecurity, gaming, web
-                      development, and other industries. Feel free to look
+                      open-source projects for cybersecurity, game development,
+                      web development, and other industries. Feel free to look
                       around and explore, I currently have a blog, a lot of
                       different social links, and some other stuff!
                     </p>
@@ -237,6 +237,39 @@ const About: NextPage = () => {
                           rel="noreferrer"
                         >
                           Newgrounds
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://infosec.exchange/@azazelm3dj3d"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Mastodon (infosec.exchange)
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://azazelm3dj3d.tumblr.com/"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Tumblr
+                        </a>
+                      </li>
+                      <li className="mb-2 mt-2">
+                        🌸{" "}
+                        <a
+                          href="https://www.linkedin.com/in/azazelm3dj3d/"
+                          className="transition hover:border-b-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          LinkedIn
                         </a>
                       </li>
                     </ul>
