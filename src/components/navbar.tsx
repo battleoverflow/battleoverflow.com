@@ -1,6 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -22,18 +23,18 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <a href="/">
-                    <img
+                  <Link href="/">
+                    <Image
                       className="block h-12 w-auto rounded-full lg:hidden"
                       src="https://avatars.githubusercontent.com/u/56496067"
                       alt="azazelm3dj3d avatar"
                     />
-                    <img
+                    <Image
                       className="hidden h-16 w-auto rounded-full lg:block"
                       src="https://avatars.githubusercontent.com/u/56496067"
                       alt="azazelm3dj3d avatar"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <Link

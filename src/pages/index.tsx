@@ -7,6 +7,7 @@ import Footer from "../components/footer";
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import Link from "next/link";
+import Image from "next/image";
 
 const projects = [
   {
@@ -125,7 +126,7 @@ const Home: NextPage = () => {
             >
               <li className="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
-                  <img
+                  <Image
                     className="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56"
                     src="https://avatars.githubusercontent.com/u/56496067"
                     alt="azazelm3dj3d avatar"

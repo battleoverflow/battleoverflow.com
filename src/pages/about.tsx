@@ -45,7 +45,7 @@ const About: NextPage = () => {
   const PYPI_MODULES = 7;
   const VSCODE_EXT = 1;
   const TOTAL_PROJECTS = 44;
-  const RELEASED_GAMES = 0;
+  // const RELEASED_GAMES = 0;
 
   return (
     <>
@@ -143,7 +143,7 @@ const About: NextPage = () => {
                     <h3 className="mt-5 text-xl underline">Links</h3>
                     <ul className="mt-2 list-disc">
                       {links.map((link) => (
-                        <li className="mb-2 mt-2">
+                        <li className="mb-2 mt-2" key={link.name}>
                           <a
                             href={link.anchor}
                             className="transition hover:border-b-2"
