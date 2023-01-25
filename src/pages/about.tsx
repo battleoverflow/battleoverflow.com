@@ -18,8 +18,20 @@ const links = [
     anchor: "https://www.patreon.com/azazelm3dj3d",
   },
   {
+    name: "YouTube",
+    anchor: "https://www.youtube.com/channel/UCrlEbqe4ppk5dVIHzdxtC7g",
+  },
+  {
+    name: "LinkedIn",
+    anchor: "https://www.linkedin.com/company/azazelm3dj3d",
+  },
+  {
     name: "PyPI",
     anchor: "https://pypi.org/user/azazelm3dj3d/",
+  },
+  {
+    name: "Rust Crates",
+    anchor: "https://crates.io/users/azazelm3dj3d",
   },
   {
     name: "npm",
@@ -28,14 +40,6 @@ const links = [
   {
     name: "VS Code Publisher",
     anchor: "https://marketplace.visualstudio.com/publishers/azazelm3dj3d",
-  },
-  {
-    name: "Rust Crates",
-    anchor: "https://crates.io/users/azazelm3dj3d",
-  },
-  {
-    name: "Mastodon (infosec.exchange)",
-    anchor: "https://infosec.exchange/@azazelm3dj3d",
   },
 ];
 
@@ -71,48 +75,17 @@ const About: NextPage = () => {
                   <div className="mx-auto mx-10 text-white">
                     <h1 className="text-center text-2xl font-bold">About Me</h1>
                     <br />
-                    <p className="text-xl">
-                      Hi! {"I'm"}{" "}
-                      <a
-                        href="https://github.com/azazelm3dj3d"
-                        className="border-b-2 transition hover:border-black"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        azazelm3dj3d
-                      </a>{" "}
-                      and {"I'm"} a Software Developer currently building
-                      open-source projects for cybersecurity, game development,
-                      web development, and other industries. Feel free to look
-                      around and explore, I currently have a blog, a lot of
-                      different social links, and some other stuff planned.
+                    <p className="text-xl mb-5">
+                      Welcome to <span className="text-red-600">Azazelm3dj3d</span>! Here you{"'"}ll find a centralized location for all of my social links, endeavors, projects, and much more. Over the years, I{"'"}ve worked in multiple IT positions, both consulting and full-time. I{"'"}ve also been a Web Developer (and Full-Stack Developer), a Software Engineer focused on embedded systems, and a Software Developer building cybersecurity tools in the Threat Intelligence space.
                     </p>
-                    <p className="mt-5 text-xl">
-                      Some of my most recent projects are the{" "}
-                      <a
-                        href="https://github.com/CatherineFramework"
-                        className="border-b-2 transition hover:border-black"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Catherine Framework
-                      </a>{" "}
-                      and{" "}
-                      <a
-                        href="https://github.com/shinigamilib"
-                        className="border-b-2 transition hover:border-black"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Shinigami utilities
-                      </a>
-                      .
+                    <p className="text-xl mb-5">
+                      If you{"'"}re interested in open source development, content creation, game development, expanding your knowledge into different technology topics, or anything relative to those types of things, I probably have something for you. You can check the various links below for most of the content I create or look around the website for some of my open source projects or anything else.
                     </p>
-                    <p className="mt-5 text-xl">
-                      If you need to reach me, or would like to chat about
-                      something I am working on, the best way to contact me is
-                      by Discord: <b>azazel#1337</b>
+
+                    <p className="text-xl mb-5">
+                      I hope you found something useful. If not, maybe check back because my interests tend to expand the more I learn about something and I may eventually create something you might find interesting. Thanks for stopping by. I hope you have a great rest of your day! {":)"}
                     </p>
+                    
                     <h3 className="mt-5 text-xl underline">Statistics</h3>
                     <ul className="mt-2 list-disc">
                       <li className="mb-2 mt-2">
