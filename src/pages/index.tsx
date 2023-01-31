@@ -10,22 +10,22 @@ import Link from "next/link";
 
 const projects = [
   {
-    name: "Catherine",
-    description: "Cybersecurity defense framework built using Rust.",
-    img: "https://avatars.githubusercontent.com/u/119169089",
-    alt: "Catherine",
-    url: "https://github.com/CatherineFramework",
+    name: "Jinx Security",
+    description: "My Cybersecurity company",
+    img: "https://avatars.githubusercontent.com/u/123960708",
+    alt: "Jinx Security",
+    url: "https://github.com/jinxsecurity",
   },
   {
     name: "azazelm3dj3d",
-    description: "Personal GitHub.",
+    description: "Personal GitHub",
     img: "https://avatars.githubusercontent.com/u/56496067",
     alt: "azazelm3dj3d",
     url: "https://github.com/azazelm3dj3d",
   },
   {
     name: "Shinigami",
-    description: "Utilities built to communicate with Docker during runtime.",
+    description: "Utilities for communicating with Docker during runtime",
     img: "https://avatars.githubusercontent.com/u/120699168",
     alt: "Droid",
     url: "https://github.com/shinigamilib",

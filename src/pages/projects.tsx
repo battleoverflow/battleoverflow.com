@@ -10,7 +10,7 @@ const projects = [
     description: "The rusty cybersecurity defense framework built using Rust.",
     img: "imgs/catherine_icon.png",
     alt: "Catherine",
-    url: "https://github.com/CatherineFramework/catherine",
+    url: "https://github.com/jinxsecurity/catherine",
   },
   {
     name: "Mercy",
@@ -18,7 +18,7 @@ const projects = [
       "Rust crate created to assist with building cybersecurity tools.",
     img: "imgs/mercy_icon.png",
     alt: "Mercy",
-    url: "https://github.com/CatherineFramework/mercy",
+    url: "https://github.com/jinxsecurity/mercy",
   },
   {
     name: "Droid",

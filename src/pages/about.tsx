@@ -19,18 +19,18 @@ const links = [
   },
   {
     name: "YouTube",
-    anchor: "https://www.youtube.com/channel/UCrlEbqe4ppk5dVIHzdxtC7g",
+    anchor: "https://www.youtube.com/@azazelm3dj3d",
   },
   {
     name: "LinkedIn",
-    anchor: "https://www.linkedin.com/company/azazelm3dj3d",
+    anchor: "https://www.linkedin.com/in/azazelm3dj3d/",
   },
   {
     name: "PyPI",
     anchor: "https://pypi.org/user/azazelm3dj3d/",
   },
   {
-    name: "Rust Crates",
+    name: "Crates.io",
     anchor: "https://crates.io/users/azazelm3dj3d",
   },
   {
@@ -44,12 +44,11 @@ const links = [
 ];
 
 const About: NextPage = () => {
-  const NPM_PACKAGES = 2;
+  const NPM_PACKAGES = 3;
   const RUST_CRATES = 3;
   const PYPI_MODULES = 7;
   const VSCODE_EXT = 1;
-  const TOTAL_PROJECTS = 44;
-  // const RELEASED_GAMES = 0;
+  const TOTAL_PROJECTS = 43;
 
   return (
     <>
@@ -75,17 +74,31 @@ const About: NextPage = () => {
                   <div className="mx-auto mx-10 text-white">
                     <h1 className="text-center text-2xl font-bold">About Me</h1>
                     <br />
-                    <p className="text-xl mb-5">
-                      Welcome to <span className="text-red-600">Azazelm3dj3d</span>! Here you{"'"}ll find a centralized location for all of my social links, endeavors, projects, and much more. Over the years, I{"'"}ve worked in multiple IT positions, both consulting and full-time. I{"'"}ve also been a Web Developer (and Full-Stack Developer), a Software Engineer focused on embedded systems, and a Software Developer building cybersecurity tools in the Threat Intelligence space.
-                    </p>
-                    <p className="text-xl mb-5">
-                      If you{"'"}re interested in open source development, content creation, game development, expanding your knowledge into different technology topics, or anything relative to those types of things, I probably have something for you. You can check the various links below for most of the content I create or look around the website for some of my open source projects or anything else.
+
+                    <p className="mb-5 text-xl">
+                      Welcome to{" "}
+                      <span className="text-red-600">Azazelm3dj3d</span>! Here
+                      you{"'"}ll find a centralized location for all of my
+                      social links, endeavors, projects, and much more. Over the
+                      years, I{"'"}ve worked in multiple IT positions, both
+                      consulting and full-time. I{"'"}ve also been a Web
+                      Developer (and Full-Stack Developer), a Software Engineer
+                      focused on embedded systems, and a Software Developer
+                      building cybersecurity tools in the Threat Intelligence
+                      space.
                     </p>
 
-                    <p className="text-xl mb-5">
-                      I hope you found something useful. If not, maybe check back because my interests tend to expand the more I learn about something and I may eventually create something you might find interesting. Thanks for stopping by. I hope you have a great rest of your day! {":)"}
+                    <p className="mb-5 text-xl">
+                      If you{"'"}re interested in open source development,
+                      content creation, game development, expanding your
+                      knowledge into different technology topics, or anything
+                      relative to those types of things, I probably have
+                      something for you. You can check the various links below
+                      for most of the content I create or look around the
+                      website for some of my open source projects or anything
+                      else.
                     </p>
-                    
+
                     <h3 className="mt-5 text-xl underline">Statistics</h3>
                     <ul className="mt-2 list-disc">
                       <li className="mb-2 mt-2">
@@ -100,7 +113,7 @@ const About: NextPage = () => {
                       <li className="mb-2 mt-2">Rust crates: {RUST_CRATES}+</li>
                       <li className="mb-2 mt-2">
                         <a
-                          href="https://github.com/search?q=user%3Aazazelm3dj3d+user%3Ashinigamilib+user%3ACatherineFramework+archived%3Afalse&type=Repositories"
+                          href="https://github.com/search?q=user%3Aazazelm3dj3d+user%3Ashinigamilib+user%3Ajinxsecurity+archived%3Afalse&type=Repositories"
                           className="border-b-2 transition hover:border-black"
                           target="_blank"
                           rel="noreferrer"
@@ -109,9 +122,6 @@ const About: NextPage = () => {
                         </a>
                         : {TOTAL_PROJECTS}+
                       </li>
-                      {/* <li className="mb-2 mt-2">
-                        Released games: {RELEASED_GAMES}
-                      </li> */}
                     </ul>
                     <h3 className="mt-5 text-xl underline">Links</h3>
                     <ul className="mt-2 list-disc">
