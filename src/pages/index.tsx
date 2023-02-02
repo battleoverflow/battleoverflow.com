@@ -11,7 +11,7 @@ import Link from "next/link";
 const projects = [
   {
     name: "Jinx Security",
-    description: "My Cybersecurity company",
+    description: "Open source cybersecurity projects",
     img: "https://avatars.githubusercontent.com/u/123960708",
     alt: "Jinx Security",
     url: "https://github.com/jinxsecurity",

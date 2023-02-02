@@ -18,10 +18,6 @@ const links = [
     anchor: "https://www.patreon.com/azazelm3dj3d",
   },
   {
-    name: "YouTube",
-    anchor: "https://www.youtube.com/@azazelm3dj3d",
-  },
-  {
     name: "LinkedIn",
     anchor: "https://www.linkedin.com/in/azazelm3dj3d/",
   },
