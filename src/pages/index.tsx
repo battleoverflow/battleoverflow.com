@@ -10,13 +10,6 @@ import Link from "next/link";
 
 const projects = [
   {
-    name: "Jinx Security",
-    description: "Open source cybersecurity projects",
-    img: "https://avatars.githubusercontent.com/u/123960708",
-    alt: "Jinx Security",
-    url: "https://github.com/jinxsecurity",
-  },
-  {
     name: "azazelm3dj3d",
     description: "Personal GitHub",
     img: "https://avatars.githubusercontent.com/u/56496067",
@@ -213,7 +206,7 @@ const Home: NextPage = () => {
                 Open Source Development
               </h1>
             </div>
-            <div className="h-1/2 space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+            <div className="h-1/2 space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-8">
               {projects.map((pro) => (
                 <div key={pro.name} className="flex justify-center text-white">
                   <div className="rounded-lg bg-gray-800 shadow-lg transition hover:shadow-2xl xl:text-left">

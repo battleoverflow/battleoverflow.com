@@ -109,7 +109,7 @@ const About: NextPage = () => {
                       <li className="mb-2 mt-2">Rust crates: {RUST_CRATES}+</li>
                       <li className="mb-2 mt-2">
                         <a
-                          href="https://github.com/search?q=user%3Aazazelm3dj3d+user%3Ashinigamilib+user%3Ajinxsecurity+archived%3Afalse&type=Repositories"
+                          href="https://github.com/search?q=user%3Aazazelm3dj3d+user%3Ashinigamilib+archived%3Afalse&type=Repositories"
                           className="border-b-2 transition hover:border-black"
                           target="_blank"
                           rel="noreferrer"
