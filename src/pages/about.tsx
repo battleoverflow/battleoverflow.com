@@ -41,10 +41,10 @@ const links = [
 
 const About: NextPage = () => {
   const NPM_PACKAGES = 3;
-  const RUST_CRATES = 3;
-  const PYPI_MODULES = 7;
+  const RUST_CRATES = 4;
+  const PYPI_MODULES = 8;
   const VSCODE_EXT = 1;
-  const TOTAL_PROJECTS = 43;
+  const TOTAL_PROJECTS = 41;
 
   return (
     <>
@@ -75,24 +75,16 @@ const About: NextPage = () => {
                       Welcome to{" "}
                       <span className="text-red-600">Azazelm3dj3d</span>! Here
                       you{"'"}ll find a centralized location for all of my
-                      social links, endeavors, projects, and much more. Over the
-                      years, I{"'"}ve worked in multiple IT positions, both
-                      consulting and full-time. I{"'"}ve also been a Web
-                      Developer (and Full-Stack Developer), a Software Engineer
-                      focused on embedded systems, and a Software Developer
-                      building cybersecurity tools in the Threat Intelligence
-                      space.
+                      social links, endeavors, projects, blog, and more.
                     </p>
 
                     <p className="mb-5 text-xl">
                       If you{"'"}re interested in open source development,
-                      content creation, game development, expanding your
-                      knowledge into different technology topics, or anything
+                      content creation, game development, cybersecurity, or anything
                       relative to those types of things, I probably have
                       something for you. You can check the various links below
                       for most of the content I create or look around the
-                      website for some of my open source projects or anything
-                      else.
+                      website for some of my open source projects. Welcome! {":)"}
                     </p>
 
                     <h3 className="mt-5 text-xl underline">Statistics</h3>
