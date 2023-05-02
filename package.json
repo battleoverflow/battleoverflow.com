@@ -1,7 +1,21 @@
 {
   "name": "azazelm3dj3d",
-  "version": "2.2.20",
+  "version": "2.2.21",
   "private": true,
+  "author": {
+    "name": "azazelm3dj3d",
+    "url": "https://github.com/azazelm3dj3d"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/azazelm3dj3d/"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/azazelm3dj3d"
+    }
+  ],
   "scripts": {
     "build": "next build",
     "dev": "next dev",
