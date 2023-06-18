@@ -1,12 +1,12 @@
-import { type NextPage } from "next";
-import Head from "next/head";
+import { type NextPage } from "next"
+import Head from "next/head"
 
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 
-import { Fragment, useState } from "react";
-import { Dialog, Transition } from "@headlessui/react";
-import Link from "next/link";
+import { Fragment, useState } from "react"
+import { Dialog, Transition } from "@headlessui/react"
+import Link from "next/link"
 
 const projects = [
   {
@@ -14,19 +14,19 @@ const projects = [
     description: "Personal GitHub",
     img: "https://avatars.githubusercontent.com/u/56496067",
     alt: "azazelm3dj3d",
-    url: "https://github.com/azazelm3dj3d",
+    url: "https://github.com/azazelm3dj3d"
   },
   {
     name: "Shinigami",
     description: "Utilities for communicating with Docker during runtime",
     img: "https://avatars.githubusercontent.com/u/120699168",
     alt: "Droid",
-    url: "https://github.com/shinigamilib",
-  },
-];
+    url: "https://github.com/shinigamilib"
+  }
+]
 
 const Home: NextPage = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false)
 
   return (
     <>
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+            <div className="fixed inset-0 bg-zinc-500 bg-opacity-75 transition-opacity" />
           </Transition.Child>
 
           <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
                 leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                 leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
               >
-                <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-gray-900 px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
+                <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-zinc-900 px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
                   <div>
                     <div className="mt-3 text-center sm:mt-5">
                       <Dialog.Title
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
                         >
                           <button
                             type="button"
-                            className="text-md m-1 inline-flex items-center rounded-md bg-patreon-base px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-gray-600"
+                            className="text-md m-1 inline-flex items-center rounded-md bg-patreon-base px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-zinc-600"
                           >
                             Patreon
                           </button>
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
                         >
                           <button
                             type="button"
-                            className="text-md m-1 inline-flex items-center rounded-md bg-github-base px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-gray-600"
+                            className="text-md m-1 inline-flex items-center rounded-md bg-github-base px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-zinc-600"
                           >
                             GitHub Sponsors
                           </button>
@@ -109,14 +109,14 @@ const Home: NextPage = () => {
           </div>
         </Dialog>
       </Transition.Root>
-      <div className="bg-gray-900">
+      <div className="bg-zinc-900">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <ul
               role="list"
               className="h-1/2 space-y-4 shadow-2xl sm:grid sm:grid-cols-1 sm:gap-6 sm:space-y-0 lg:grid-cols-1 lg:gap-8"
             >
-              <li className="rounded-lg bg-gray-800 py-10 px-6 text-center xl:px-10 xl:text-left">
+              <li className="rounded-lg bg-zinc-800 py-10 px-6 text-center xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
                   <img
                     className="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56"
@@ -131,14 +131,14 @@ const Home: NextPage = () => {
                     <Link href={"/projects"}>
                       <button
                         type="button"
-                        className="text-md m-1 inline-flex items-center rounded-md bg-gray-700 px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-gray-600"
+                        className="text-md m-1 inline-flex items-center rounded-md bg-zinc-700 px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-zinc-600"
                       >
                         Projects
                       </button>
                     </Link>
                     <button
                       type="button"
-                      className="text-md m-1 inline-flex items-center rounded-md bg-gray-700 px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-gray-600"
+                      className="text-md m-1 inline-flex items-center rounded-md bg-zinc-700 px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-zinc-600"
                       onClick={() => setOpen(true)}
                     >
                       Support
@@ -171,7 +171,7 @@ const Home: NextPage = () => {
                           </svg>
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a
                           href="https://twitter.com/azazelm3dj3d"
                           className="text-gray-400 hover:text-red-500"
@@ -188,7 +188,7 @@ const Home: NextPage = () => {
                             <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
                           </svg>
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -198,18 +198,18 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className="bg-gray-900">
+      <div className="bg-zinc-900">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="mx-auto mx-10 text-white">
               <h1 className="text-center text-4xl font-bold">
-                Open Source Development
+                Open Source Organizations
               </h1>
             </div>
             <div className="h-1/2 space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-8">
               {projects.map((pro) => (
                 <div key={pro.name} className="flex justify-center text-white">
-                  <div className="rounded-lg bg-gray-800 shadow-lg transition hover:shadow-2xl xl:text-left">
+                  <div className="rounded-lg bg-zinc-800 shadow-lg transition hover:shadow-2xl xl:text-left">
                     <a href={pro.url} target="_blank" rel="noreferrer">
                       <img
                         src={pro.img}
@@ -233,7 +233,7 @@ const Home: NextPage = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

@@ -1,6 +1,6 @@
-import { Disclosure } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
+import { Disclosure } from "@headlessui/react"
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
+import Link from "next/link"
 
 export default function Navbar() {
   return (
@@ -11,7 +11,7 @@ export default function Navbar() {
             <div className="relative flex h-20 justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-zinc-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -29,7 +29,7 @@ export default function Navbar() {
                       alt="azazelm3dj3d avatar"
                     />
                     <img
-                      className="hidden h-16 w-auto rounded-full lg:block"
+                      className="hidden h-12 w-auto rounded-full lg:block"
                       src="https://avatars.githubusercontent.com/u/56496067"
                       alt="azazelm3dj3d avatar"
                     />
@@ -130,5 +130,5 @@ export default function Navbar() {
         </>
       )}
     </Disclosure>
-  );
+  )
 }

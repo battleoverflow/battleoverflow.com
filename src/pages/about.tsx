@@ -1,50 +1,54 @@
-import { type NextPage } from "next";
-import Head from "next/head";
+import { type NextPage } from "next"
+import Head from "next/head"
 
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 
 const links = [
   {
     name: "GitHub",
-    anchor: "https://github.com/azazelm3dj3d",
+    anchor: "https://github.com/azazelm3dj3d"
   },
-  {
-    name: "Twitter",
-    anchor: "https://twitter.com/azazelm3dj3d",
-  },
+  // {
+  //   name: "Twitter",
+  //   anchor: "https://twitter.com/azazelm3dj3d"
+  // },
   {
     name: "Patreon",
-    anchor: "https://www.patreon.com/azazelm3dj3d",
+    anchor: "https://www.patreon.com/azazelm3dj3d"
   },
   {
     name: "LinkedIn",
-    anchor: "https://www.linkedin.com/in/azazelm3dj3d/",
+    anchor: "https://www.linkedin.com/in/azazelm3dj3d/"
   },
   {
     name: "PyPI",
-    anchor: "https://pypi.org/user/azazelm3dj3d/",
+    anchor: "https://pypi.org/user/azazelm3dj3d/"
   },
   {
     name: "Crates.io",
-    anchor: "https://crates.io/users/azazelm3dj3d",
+    anchor: "https://crates.io/users/azazelm3dj3d"
   },
   {
     name: "npm",
-    anchor: "https://www.npmjs.com/~azazelm3dj3d",
+    anchor: "https://www.npmjs.com/~azazelm3dj3d"
   },
   {
     name: "VS Code Publisher",
-    anchor: "https://marketplace.visualstudio.com/publishers/azazelm3dj3d",
+    anchor: "https://marketplace.visualstudio.com/publishers/azazelm3dj3d"
   },
-];
+  {
+    name: "Chess.com",
+    anchor: "https://www.chess.com/member/azazelm3dj3d"
+  }
+]
 
 const About: NextPage = () => {
-  const NPM_PACKAGES = 3;
-  const RUST_CRATES = 4;
-  const PYPI_MODULES = 8;
-  const VSCODE_EXT = 1;
-  const TOTAL_PROJECTS = 41;
+  const NPM_PACKAGES = 3
+  const RUST_CRATES = 4
+  const PYPI_MODULES = 7
+  const VSCODE_EXT = 1
+  const TOTAL_PROJECTS = 43
 
   return (
     <>
@@ -58,14 +62,14 @@ const About: NextPage = () => {
       </Head>
       <Navbar />
 
-      <div className="bg-gray-900">
+      <div className="bg-zinc-900">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <ul
               role="list"
               className="h-1/2 space-y-4 shadow-2xl sm:grid sm:grid-cols-1 sm:gap-6 sm:space-y-0 lg:grid-cols-1 lg:gap-8"
             >
-              <li className="rounded-lg bg-gray-800 py-10 px-6 xl:px-10 xl:text-left">
+              <li className="rounded-lg bg-zinc-800 py-10 px-6 xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
                   <div className="mx-auto mx-10 text-white">
                     <h1 className="text-center text-2xl font-bold">About Me</h1>
@@ -75,16 +79,17 @@ const About: NextPage = () => {
                       Welcome to{" "}
                       <span className="text-red-600">Azazelm3dj3d</span>! Here
                       you{"'"}ll find a centralized location for all of my
-                      social links, endeavors, projects, blog, and more.
+                      social links, open source endeavors, projects, blog, and
+                      more.
                     </p>
 
                     <p className="mb-5 text-xl">
                       If you{"'"}re interested in open source development,
-                      content creation, game development, cybersecurity, or anything
-                      relative to those types of things, I probably have
-                      something for you. You can check the various links below
-                      for most of the content I create or look around the
-                      website for some of my open source projects. Welcome! {":)"}
+                      systems development, cybersecurity, or anything relative
+                      to those types of things, I probably have something for
+                      you. You can check the various links below for most of the
+                      content I create or look around the website for some of my
+                      open source projects. Welcome! {":)"}
                     </p>
 
                     <h3 className="mt-5 text-xl underline">Statistics</h3>
@@ -135,7 +140,7 @@ const About: NextPage = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About

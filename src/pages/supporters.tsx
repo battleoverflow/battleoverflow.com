@@ -1,8 +1,8 @@
-import { type NextPage } from "next";
-import Head from "next/head";
+import { type NextPage } from "next"
+import Head from "next/head"
 
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 
 const Supporters: NextPage = () => {
   return (
@@ -17,14 +17,14 @@ const Supporters: NextPage = () => {
       </Head>
       <Navbar />
 
-      <div className="h-screen bg-gray-900">
+      <div className="h-screen bg-zinc-900">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <ul
               role="list"
               className="h-1/2 space-y-4 shadow-2xl sm:grid sm:grid-cols-1 sm:gap-6 sm:space-y-0 lg:grid-cols-1 lg:gap-8"
             >
-              <li className="rounded-lg bg-gray-800 py-10 px-6 xl:px-10 xl:text-left">
+              <li className="rounded-lg bg-zinc-800 py-10 px-6 xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
                   <div className="mx-auto mx-10 text-white">
                     <h1 className="text-center text-2xl font-bold">
@@ -45,7 +45,7 @@ const Supporters: NextPage = () => {
                           >
                             <button
                               type="button"
-                              className="text-md m-1 inline-flex items-center rounded-md bg-patreon-base px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-gray-600"
+                              className="text-md m-1 inline-flex items-center rounded-md bg-patreon-base px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-zinc-600"
                             >
                               Patreon
                             </button>
@@ -57,7 +57,7 @@ const Supporters: NextPage = () => {
                           >
                             <button
                               type="button"
-                              className="text-md m-1 inline-flex items-center rounded-md bg-github-base px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-gray-600"
+                              className="text-md m-1 inline-flex items-center rounded-md bg-github-base px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-zinc-600"
                             >
                               GitHub Sponsors
                             </button>
@@ -81,7 +81,7 @@ const Supporters: NextPage = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default Supporters;
+export default Supporters

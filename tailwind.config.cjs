@@ -5,9 +5,9 @@ module.exports = {
     extend: {
       colors: {
         "patreon-base": "#f60e10",
-        "github-base": "#0d1117",
-      },
-    },
+        "github-base": "#0d1117"
+      }
+    }
   },
-  plugins: [require("@tailwindcss/typography")],
-};
+  plugins: [require("@tailwindcss/typography")]
+}
