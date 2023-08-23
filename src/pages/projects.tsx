@@ -43,7 +43,7 @@ const projects = [
     description:
       "Library allowing the user to generate and build Dockerfiles during runtime",
     img: "imgs/projects/shinigami.webp",
-    url: "https://github.com/shinigamilib",
+    url: "https://github.com/azazelm3dj3d/shinigami",
     lang: "Python, TypeScript"
   },
   {

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "patreon-base": "#f60e10",
+        // "patreon-base": "#f60e10",
         "github-base": "#0d1117"
       }
     }

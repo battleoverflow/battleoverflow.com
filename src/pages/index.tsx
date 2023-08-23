@@ -15,13 +15,6 @@ const projects = [
     img: "https://avatars.githubusercontent.com/u/56496067",
     alt: "azazelm3dj3d",
     url: "https://github.com/azazelm3dj3d"
-  },
-  {
-    name: "Shinigami",
-    description: "Utilities for communicating with Docker during runtime",
-    img: "https://avatars.githubusercontent.com/u/120699168",
-    alt: "Droid",
-    url: "https://github.com/shinigamilib"
   }
 ]
 
@@ -76,18 +69,6 @@ const Home: NextPage = () => {
                       </Dialog.Title>
                       <br />
                       <div className="mt-2">
-                        <a
-                          href="https://www.patreon.com/azazelm3dj3d"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <button
-                            type="button"
-                            className="text-md m-1 inline-flex items-center rounded-md bg-patreon-base px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-zinc-600"
-                          >
-                            Patreon
-                          </button>
-                        </a>
                         <a
                           href="https://github.com/sponsors/azazelm3dj3d"
                           target="_blank"
@@ -171,24 +152,6 @@ const Home: NextPage = () => {
                           </svg>
                         </a>
                       </li>
-                      {/* <li>
-                        <a
-                          href="https://twitter.com/azazelm3dj3d"
-                          className="text-gray-400 hover:text-red-500"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <span className="sr-only">Twitter</span>
-                          <svg
-                            className="h-5 w-5"
-                            aria-hidden="true"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
-                          </svg>
-                        </a>
-                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -203,10 +166,10 @@ const Home: NextPage = () => {
           <div className="space-y-12">
             <div className="mx-auto mx-10 text-white">
               <h1 className="text-center text-4xl font-bold">
-                Open Source Organizations
+                Open Source Repositories
               </h1>
             </div>
-            <div className="h-1/2 space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-2 lg:gap-8">
+            <div className="h-1/2 space-y-4 sm:grid sm:grid-cols-1 sm:gap-6 sm:space-y-0 lg:grid-cols-1 lg:gap-8">
               {projects.map((pro) => (
                 <div key={pro.name} className="flex justify-center text-white">
                   <div className="rounded-lg bg-zinc-800 shadow-lg transition hover:shadow-2xl xl:text-left">

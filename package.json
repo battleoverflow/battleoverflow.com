@@ -1,6 +1,6 @@
 {
   "name": "azazelm3dj3d",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "private": true,
   "author": {
     "name": "azazelm3dj3d",
@@ -10,10 +10,6 @@
     {
       "type": "github",
       "url": "https://github.com/sponsors/azazelm3dj3d/"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/azazelm3dj3d"
     }
   ],
   "scripts": {
