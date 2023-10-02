@@ -8,59 +8,30 @@ const projects = [
   {
     name: "Catherine",
     description:
-      "General-purpose cybersecurity framework built to aggregate, validate, decode, decrypt, and maintain data",
+      "The Catherine Framework is a general-purpose cybersecurity framework built to provide extended support for defense operations.",
     img: "imgs/projects/catherine.webp",
-    url: "https://github.com/azazelm3dj3d/catherine",
-    lang: "Rust"
+    url: "https://github.com/azazelm3dj3d/catherine"
   },
   {
     name: "Mercy",
     description:
-      "Rust crate created to assist with building cybersecurity tools",
+      "Mercy is an open-source Rust crate and CLI designed for building cybersecurity utilities and projects.",
     img: "imgs/projects/mercy.webp",
-    url: "https://github.com/azazelm3dj3d/mercy",
-    lang: "Rust"
+    url: "https://github.com/azazelm3dj3d/mercy"
   },
   {
     name: "Droid",
     description:
-      "Remote Android (adb) communication using a desktop application",
+      "Droid is a desktop application created to communicate with Android devices on the local network over the Android debug bridge (adb).",
     img: "imgs/projects/droid.webp",
-    url: "https://github.com/azazelm3dj3d/droid",
-    lang: "Python"
-  },
-  {
-    name: "aniFace",
-    description:
-      "VS Code extension that judges you for the number of errors in your codebase",
-    img: "imgs/projects/aniface.webp",
-    alt: "aniFace",
-    url: "https://github.com/azazelm3dj3d/aniFace",
-    lang: "TypeScript"
-  },
-  {
-    name: "Shinigami",
-    description:
-      "Library allowing the user to generate and build Dockerfiles during runtime",
-    img: "imgs/projects/shinigami.webp",
-    url: "https://github.com/azazelm3dj3d/shinigami",
-    lang: "Python, TypeScript"
+    url: "https://github.com/azazelm3dj3d/droid"
   },
   {
     name: "RediSea",
     description:
-      "Redis (in-memory database) communication framework used for database control",
+      "RediSea is a Redis (in-memory database) framework used for communicating with Redis in real-time",
     img: "imgs/projects/redisea.webp",
-    url: "https://github.com/azazelm3dj3d/RediSea",
-    lang: "Python"
-  },
-  {
-    name: "Jinx",
-    description:
-      "The Jinx Framework is a mini framework created to provide simple components for building basic websites, auth included",
-    img: "imgs/projects/jinx.webp",
-    url: "https://github.com/azazelm3dj3d/jinx",
-    lang: "PHP"
+    url: "https://github.com/azazelm3dj3d/RediSea"
   }
 ]
 
@@ -81,7 +52,9 @@ const Projects: NextPage = () => {
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="mx-auto mx-10 text-white">
-              <h1 className="text-center text-4xl font-bold">Projects</h1>
+              <h1 className="text-center text-4xl font-bold">
+                Notable Projects
+              </h1>
             </div>
             <div className="h-1/2 space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
               {projects.map((pro) => (
@@ -100,9 +73,6 @@ const Projects: NextPage = () => {
                         {pro.name}
                       </h1>
                       <p className="mt-4 text-lg">{pro.description}</p>
-                      <p className="mt-4 rounded-md border-2 border-red-500 bg-zinc-900 p-2 text-center">
-                        {pro.lang}
-                      </p>
                     </div>
                   </div>
                 </div>
