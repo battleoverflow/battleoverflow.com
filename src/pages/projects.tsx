@@ -9,28 +9,28 @@ const projects = [
     name: "Catherine",
     description:
       "The Catherine Framework is a general-purpose cybersecurity framework built to provide extended support for defense operations.",
-    img: "imgs/projects/catherine.webp",
+    img: "images/projects/catherine_icon.png",
     url: "https://github.com/azazelm3dj3d/catherine"
   },
   {
     name: "Mercy",
     description:
       "Mercy is an open-source Rust crate and CLI designed for building cybersecurity utilities and projects.",
-    img: "imgs/projects/mercy.webp",
+    img: "images/projects/mercy.webp",
     url: "https://github.com/azazelm3dj3d/mercy"
   },
   {
     name: "Droid",
     description:
       "Droid is a desktop application created to communicate with Android devices on the local network over the Android debug bridge (adb).",
-    img: "imgs/projects/droid.webp",
+    img: "images/projects/droid.webp",
     url: "https://github.com/azazelm3dj3d/droid"
   },
   {
     name: "RediSea",
     description:
       "RediSea is a Redis (in-memory database) framework used for communicating with Redis in real-time",
-    img: "imgs/projects/redisea.webp",
+    img: "images/projects/redisea.webp",
     url: "https://github.com/azazelm3dj3d/RediSea"
   }
 ]
@@ -41,7 +41,7 @@ const Projects: NextPage = () => {
       <Head>
         <title>Projects</title>
         <meta name="description" content="azazelm3dj3d personal website" />
-        <link rel="icon" href="imgs/icon.png" />
+        <link rel="icon" href="images/icon.png" />
       </Head>
       <Navbar />
 

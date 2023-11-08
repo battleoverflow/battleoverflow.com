@@ -26,7 +26,7 @@ const Home: NextPage = () => {
       <Head>
         <title>~</title>
         <meta name="description" content="azazelm3dj3d personal website" />
-        <link rel="icon" href="imgs/icon.png" />
+        <link rel="icon" href="images/icon.png" />
       </Head>
       <Navbar />
 
