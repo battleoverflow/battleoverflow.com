@@ -41,10 +41,7 @@ const Projects: NextPage = () => {
       <Head>
         <title>Projects</title>
         <meta name="description" content="azazelm3dj3d personal website" />
-        <link
-          rel="icon"
-          href="https://avatars.githubusercontent.com/u/56496067"
-        />
+        <link rel="icon" href="imgs/icon.png" />
       </Head>
       <Navbar />
 
