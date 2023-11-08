@@ -24,12 +24,9 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>~</title>
         <meta name="description" content="azazelm3dj3d personal website" />
-        <link
-          rel="icon"
-          href="https://avatars.githubusercontent.com/u/56496067"
-        />
+        <link rel="icon" href="imgs/icon.png" />
       </Head>
       <Navbar />
 
@@ -194,6 +191,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   )
