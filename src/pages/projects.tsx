@@ -10,28 +10,28 @@ const projects = [
     description:
       "The Catherine Framework is a general-purpose cybersecurity framework built to provide extended support for defense operations.",
     img: "images/projects/catherine_icon.png",
-    url: "https://github.com/azazelm3dj3d/catherine"
+    url: "https://github.com/battleoverflow/catherine"
   },
   {
     name: "Mercy",
     description:
       "Mercy is an open-source Rust crate and CLI designed for building cybersecurity utilities and projects.",
     img: "images/projects/mercy.webp",
-    url: "https://github.com/azazelm3dj3d/mercy"
+    url: "https://github.com/battleoverflow/mercy"
   },
   {
     name: "Droid",
     description:
       "Droid is a desktop application created to communicate with Android devices on the local network over the Android debug bridge (adb).",
     img: "images/projects/droid.webp",
-    url: "https://github.com/azazelm3dj3d/droid"
+    url: "https://github.com/battleoverflow/droid"
   },
   {
     name: "RediSea",
     description:
       "RediSea is a Redis (in-memory database) framework used for communicating with Redis in real-time",
     img: "images/projects/redisea.webp",
-    url: "https://github.com/azazelm3dj3d/RediSea"
+    url: "https://github.com/battleoverflow/RediSea"
   }
 ]
 
@@ -40,7 +40,7 @@ const Projects: NextPage = () => {
     <>
       <Head>
         <title>Projects</title>
-        <meta name="description" content="azazelm3dj3d personal website" />
+        <meta name="description" content="battleoverflow personal website" />
         <link rel="icon" href="images/icon.png" />
       </Head>
       <Navbar />

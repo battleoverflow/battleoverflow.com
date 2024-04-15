@@ -1,15 +1,15 @@
 {
-  "name": "azazelm3dj3d",
+  "name": "battleoverflow",
   "version": "2.4.1",
   "private": true,
   "author": {
-    "name": "azazelm3dj3d",
-    "url": "https://github.com/azazelm3dj3d"
+    "name": "battleoverflow",
+    "url": "https://github.com/battleoverflow"
   },
   "funding": [
     {
       "type": "github",
-      "url": "https://github.com/sponsors/azazelm3dj3d/"
+      "url": "https://github.com/sponsors/battleoverflow/"
     }
   ],
   "scripts": {

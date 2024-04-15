@@ -3,7 +3,7 @@ import { SVGProps } from "react"
 const links = [
   {
     name: "GitHub",
-    href: "https://github.com/azazelm3dj3d",
+    href: "https://github.com/battleoverflow",
     icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-base text-white">
-            azazelm3dj3d &copy; {new Date().getFullYear()}
+            battleoverflow &copy; {new Date().getFullYear()}
           </p>
         </div>
       </div>

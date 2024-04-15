@@ -10,11 +10,11 @@ import Link from "next/link"
 
 const projects = [
   {
-    name: "azazelm3dj3d",
+    name: "battleoverflow",
     description: "Personal GitHub",
     img: "https://avatars.githubusercontent.com/u/56496067",
-    alt: "azazelm3dj3d",
-    url: "https://github.com/azazelm3dj3d"
+    alt: "battleoverflow",
+    url: "https://github.com/battleoverflow"
   }
 ]
 
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>~</title>
-        <meta name="description" content="azazelm3dj3d personal website" />
+        <meta name="description" content="battleoverflow personal website" />
         <link rel="icon" href="images/icon.png" />
       </Head>
       <Navbar />
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
                       <br />
                       <div className="mt-2">
                         <a
-                          href="https://github.com/sponsors/azazelm3dj3d"
+                          href="https://github.com/sponsors/battleoverflow"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
                   <img
                     className="mx-auto h-40 w-40 rounded-full xl:h-56 xl:w-56"
                     src="https://avatars.githubusercontent.com/u/56496067"
-                    alt="azazelm3dj3d avatar"
+                    alt="battleoverflow avatar"
                   />
                   <div className="mx-auto text-center">
                     <h3 className="font-size-lg text-2xl font-bold text-white">
@@ -129,7 +129,7 @@ const Home: NextPage = () => {
                     <ul role="list" className="flex justify-center space-x-5">
                       <li>
                         <a
-                          href="https://github.com/azazelm3dj3d"
+                          href="https://github.com/battleoverflow"
                           className="text-gray-400 hover:text-red-500"
                           target="_blank"
                           rel="noreferrer"
