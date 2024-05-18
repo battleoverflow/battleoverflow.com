@@ -78,6 +78,18 @@ const Home: NextPage = () => {
                             GitHub Sponsors
                           </button>
                         </a>
+                        <a
+                          href="https://www.patreon.com/battleoverflow"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <button
+                            type="button"
+                            className="text-md bg-patreon-base m-1 inline-flex items-center rounded-md px-6 py-3 font-medium font-bold text-white shadow-lg transition hover:bg-zinc-600"
+                          >
+                            Patreon
+                          </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -103,7 +115,7 @@ const Home: NextPage = () => {
                   />
                   <div className="mx-auto text-center">
                     <h3 className="font-size-lg text-2xl font-bold text-white">
-                      Sup?
+                      Software Developer
                     </h3>
                     <br />
                     <Link href={"/projects"}>

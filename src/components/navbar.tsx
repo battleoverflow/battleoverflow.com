@@ -34,7 +34,7 @@ export default function Navbar() {
                     Projects
                   </Link>
                   <a
-                    href="https://blog.azazelm3dj3d.com"
+                    href="https://blog.battleoverflow.com"
                     className="text-md inline-flex items-center border-transparent px-1 pt-1 font-medium text-white transition hover:text-red-500"
                     target="_blank"
                     rel="noreferrer"
@@ -64,7 +64,7 @@ export default function Navbar() {
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="https://blog.azazelm3dj3d.com"
+                href="https://blog.battleoverflow.com"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-white transition hover:bg-white hover:text-black"
                 target="_blank"
                 rel="noreferrer"
